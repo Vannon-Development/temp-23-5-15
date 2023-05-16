@@ -1,0 +1,8 @@
+Concurrent true 1
+	Sequence
+		CheckStick move
+		Move move
+	Sequence
+		CheckStick fire
+		CheckTimer primary
+		Attack primary

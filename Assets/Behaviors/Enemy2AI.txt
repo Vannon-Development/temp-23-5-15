@@ -1,0 +1,10 @@
+Concurrent true 1
+	Sequence
+		Inverter
+			HasTarget
+		FindAllTargets
+		SelectNearestTarget
+	Sequence
+		HasTarget
+		Predict 2.5
+		Move 6 3
